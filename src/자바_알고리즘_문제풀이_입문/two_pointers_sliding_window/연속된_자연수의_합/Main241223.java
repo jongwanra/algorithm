@@ -42,16 +42,5 @@ public class Main241223 {
 		return answer;
 	}
 
-	// 수학 공식으로 문제 풀기
-	// m개의 연속된 자연수를 구할 때,
-	// n에서 (1 ~ m) 까지의 수를 뺀 이후에 m으로 나눴을 때 나머지가 없는 경우,
-	// 연속된 자연수로 판단한다.
-	private int solution2(final int n) {
-		int answer = 0;
-		int cnt = 1;
-
-		return answer;
-	}
-
 
 }
