@@ -15,35 +15,33 @@ import java.util.Map;
  */
 public class Main250121 {
 	private int solutionAfterLecture(String s, String t) {
-		int answer  =0;
+		int answer = 0;
 		final int windowSize = t.length();
 		Map<Character, Integer> anagramMap = new HashMap<>();
 		Map<Character, Integer> windowMap = new HashMap<>();
-		for(char c: t.toCharArray()) {
+		for (char c : t.toCharArray()) {
 			anagramMap.put(c, anagramMap.getOrDefault(c, 0) + 1);
 		}
 
-
-		for(int index = 0; index < windowSize -1; index++) {
+		for (int index = 0; index < windowSize - 1; index++) {
 			windowMap.put(s.charAt(index), windowMap.getOrDefault(s.charAt(index), 0) + 1);
 		}
 
 		int lt = 0;
-		for(int rt = windowSize -1; rt < s.length(); rt++) {
+		for (int rt = windowSize - 1; rt < s.length(); rt++) {
 			final char rtTarget = s.charAt(rt);
 			windowMap.put(rtTarget, windowMap.getOrDefault(rtTarget, 0) + 1);
-			if(windowMap.equals(anagramMap)) {
+			if (windowMap.equals(anagramMap)) {
 				answer++;
 			}
 
 			final char ltTarget = s.charAt(lt);
 			windowMap.put(ltTarget, windowMap.getOrDefault(ltTarget, 0) - 1);
-			if(windowMap.get(ltTarget) == 0) {
+			if (windowMap.get(ltTarget) == 0) {
 				windowMap.remove(ltTarget);
 			}
 			lt++;
 		}
-
 
 		return answer;
 	}
