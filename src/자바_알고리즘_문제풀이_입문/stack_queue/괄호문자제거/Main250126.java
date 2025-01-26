@@ -14,7 +14,7 @@ import java.util.Deque;
  * 닫는 괄호가 나오면 여는 괄호가 나올 때까지 pop한다.
  * Stack에 남은걸 출력한다.
  */
-public class Main {
+public class Main250126 {
 	private String solution(String str) {
 		Deque<Character> stack = new ArrayDeque<>();
 
@@ -37,7 +37,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		Main main = new Main();
+		Main250126 main = new Main250126();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println(main.solution(br.readLine()));
 	}
