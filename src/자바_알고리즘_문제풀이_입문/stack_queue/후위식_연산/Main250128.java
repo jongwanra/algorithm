@@ -18,34 +18,30 @@ public class Main250128 {
 	private int solution(String str) {
 		Deque<Integer> stack = new ArrayDeque<>();
 
-		for (char c : str.toCharArray()) {
-			if (isOperation(c)) {
-				Integer backwardNum = stack.pop();
-				Integer forwardNum = stack.pop();
-				if (c == '+') {
-					stack.push(forwardNum + backwardNum);
-					continue;
-				}
-				if (c == '-') {
-					stack.push(forwardNum - backwardNum);
-					continue;
-				}
-				if (c == '*') {
-					stack.push(forwardNum * backwardNum);
-					continue;
-				}
-				stack.push(forwardNum / backwardNum);
+		for (char x : str.toCharArray()) {
+			if (Character.isDigit(x)) {
+				stack.push(x - '0');
 				continue;
 			}
-
-			stack.push(Integer.parseInt(String.valueOf(c)));
+			final int rightOperand = stack.pop();
+			final int leftOperand = stack.pop();
+			stack.push(calculate(leftOperand, rightOperand, x));
 		}
 
 		return stack.pop();
 	}
 
-	private boolean isOperation(char c) {
-		return c == '+' || c == '-' || c == '*' || c == '/';
+	private int calculate(int leftOperand, int rightOperand, char operation) {
+		if (operation == '+') {
+			return leftOperand + rightOperand;
+		}
+		if (operation == '-') {
+			return leftOperand - rightOperand;
+		}
+		if (operation == '*') {
+			return leftOperand * rightOperand;
+		}
+		return leftOperand / rightOperand;
 	}
 
 	public int lectureSolution(String str) {
