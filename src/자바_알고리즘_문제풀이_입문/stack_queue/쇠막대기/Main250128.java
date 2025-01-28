@@ -14,7 +14,7 @@ import java.util.Deque;
  */
 
 
-public class Main {
+public class Main250128 {
 	static class Element {
 		public int distance;
 		public Element(int distance) {
@@ -54,7 +54,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		Main main = new Main();
+		Main250128 main = new Main250128();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println(main.solution(br.readLine()));
 	}
