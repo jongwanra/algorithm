@@ -33,9 +33,29 @@ public class Main250129 {
 		}
 		return matchedCount == subjectsSize ? "YES" : "NO";
 	}
+
+	private String solution2(String requiredSubjects, String subjects) {
+		Queue<Character> queue = new ArrayDeque<>();
+
+		for(char requiredSubject: requiredSubjects.toCharArray()){
+			queue.offer(requiredSubject);
+		}
+
+		for(char subject: subjects.toCharArray()) {
+			if(queue.isEmpty()) {
+				break;
+			}
+			if (queue.peek() == subject) {
+				queue.poll();
+			}
+		}
+
+		return queue.isEmpty() ? "YES": "NO";
+
+	}
 	public static void main(String[] args) throws IOException {
 		Main250129 main = new Main250129();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println(main.solution(br.readLine(), br.readLine()));
+		System.out.println(main.solution2(br.readLine(), br.readLine()));
 	}
 }
