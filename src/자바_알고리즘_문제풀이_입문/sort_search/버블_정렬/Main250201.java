@@ -16,9 +16,9 @@ import java.util.StringTokenizer;
  * https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html
  */
 
-public class Main {
+public class Main250201 {
 	public static void main(String[] args) throws IOException {
-		Main main = new Main();
+		Main250201 main = new Main250201();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		StringTokenizer st = new StringTokenizer(br.readLine());
