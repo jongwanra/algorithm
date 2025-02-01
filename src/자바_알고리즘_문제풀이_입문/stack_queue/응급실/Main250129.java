@@ -13,25 +13,30 @@ import java.util.stream.Collectors;
  * 2. Queue에서 poll() 이후에, 위험도 여부를 정한다.
  *
  */
-public class Main {
-	static class Patient {
-		public int risk;
-		public boolean isTarget;
 
-		public Patient(int risk) {
-			this.risk = risk;
-			this.isTarget = false;
-		}
+class Patient {
+	private int risk;
+	private boolean isTarget;
 
-		public void specifyTarget() {
-			this.isTarget = true;
-		}
-
-		public boolean isBiggerRiskThan(Patient targetPatient) {
-			return this.risk > targetPatient.risk;
-		}
+	public Patient(int risk) {
+		this.risk = risk;
+		this.isTarget = false;
 	}
 
+	public void specifyTarget() {
+		this.isTarget = true;
+	}
+
+	public boolean isBiggerRiskThan(Patient targetPatient) {
+		return this.risk > targetPatient.risk;
+	}
+
+	public boolean isTarget() {
+		return isTarget;
+	}
+}
+
+public class Main250129 {
 	private int solution(int n, int m, int[] arr){
 		int answer = 0;
 		List<Patient> patients = Arrays.stream(arr)
@@ -53,7 +58,7 @@ public class Main {
 			}
 
 			answer++;
-			if(targetPatient.isTarget) {
+			if(targetPatient.isTarget()) {
 				break;
 			}
 		}
@@ -71,7 +76,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		Main main = new Main();
+		Main250129 main = new Main250129();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		final int n = Integer.parseInt(st.nextToken());
