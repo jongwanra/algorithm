@@ -11,6 +11,9 @@ import java.util.StringTokenizer;
  * 오름차순 정렬.
  * 이중 포문을 돈다.
  * 포문을 돌면서 선택한 index와 가장 최소값을 비교해서 swaping한다.
+ *
+ * 선택 정렬 참고 링크
+ * https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html
  */
 public class Main250201 {
 	public static void main(String[] args) throws IOException {
