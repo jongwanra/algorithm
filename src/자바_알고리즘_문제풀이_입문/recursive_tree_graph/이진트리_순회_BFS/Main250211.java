@@ -14,29 +14,25 @@ class Node {
 }
 
 public class Main250211 {
-
-
 	Node root;
 	private void bfs(Node node) {
 		Queue<Node> queue = new ArrayDeque<>();
 		queue.offer(node);
-		int level = 0;
+
 		while(!queue.isEmpty()) {
-			System.out.println("level: " + level);
-			final int len = queue.size();
-			for(int index = 0; index < len; index++) {
+			final int size = queue.size();
+
+			for(int index = 0; index < size; index++) {
 				Node currentNode = queue.poll();
 				System.out.print(currentNode.data + " ");
-				if(currentNode.lt != null){
+				if(currentNode.lt != null) {
 					queue.offer(currentNode.lt);
 				}
 				if(currentNode.rt != null) {
 					queue.offer(currentNode.rt);
 				}
-
 			}
 			System.out.println();
-			level++;
 		}
 	}
 	public static void main(String[] args) {
