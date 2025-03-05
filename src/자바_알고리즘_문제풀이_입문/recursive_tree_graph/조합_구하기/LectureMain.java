@@ -24,7 +24,7 @@ public class LectureMain {
 		n = Integer.parseInt(st.nextToken());
 		r = Integer.parseInt(st.nextToken());
 		combi = new int[r];
-		main.dfs(0, 0);
+		main.dfs(0, 1);
 
 	}
 
@@ -37,9 +37,9 @@ public class LectureMain {
 			return;
 		}
 
-		for(int num = start + 1; num <= n; num++) {
+		for(int num = start; num <= n; num++) {
 			combi[depth] = num;
-			dfs(depth + 1, num);
+			dfs(depth + 1, num + 1);
 
 		}
 	}
