@@ -21,10 +21,10 @@ public class Main250320 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		final int n = Integer.parseInt(br.readLine());
 		cache = new int[n + 1];
-		System.out.println(main.solutionBottomToTop(n));
+		System.out.println(main.solutionBottomUp(n));
 	}
 
-	private int solutionTopToBottom(int n) {
+	private int solutionTopBottom(int n) {
 		if(n == 1) {
 			return 1;
 		}
@@ -36,10 +36,10 @@ public class Main250320 {
 			return cache[n];
 		}
 
-		return cache[n] = solutionTopToBottom(n - 1) + solutionTopToBottom(n - 2);
+		return cache[n] = solutionTopBottom(n - 1) + solutionTopBottom(n - 2);
 	}
 
-	private int solutionBottomToTop(int n) {
+	private int solutionBottomUp(int n) {
 		int[] cache = new int[n + 1];
 		cache[1] = 1;
 		cache[2] = 2;
