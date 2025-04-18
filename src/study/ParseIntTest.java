@@ -9,13 +9,14 @@ public class ParseIntTest {
 
 	private void convertDecimalToBinary() {
 		final int decimal = 138;
-		String binary = Integer.toBinaryString(decimal);
+		String binary = Integer.toString(decimal, 2);
 		System.out.println("binary = " + binary);
 	}
 
 	private void convertBinaryToDecimal() {
 		final String binary = "10001010";
-		int binaryCode = Integer.parseInt(binary, 2);
-		System.out.println("binaryCode = " + binaryCode);
+		int decimal = Integer.parseInt(binary, 2);
+		System.out.println("decimal = " + decimal);
 	}
+
 }
