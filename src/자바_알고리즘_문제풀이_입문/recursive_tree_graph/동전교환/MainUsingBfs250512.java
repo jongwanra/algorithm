@@ -16,7 +16,7 @@ package 자바_알고리즘_문제풀이_입문.recursive_tree_graph.동전교�
 import java.util.*;
 import java.io.*;
 
-public class Main250512 {
+public class MainUsingBfs250512 {
 	private static boolean[] visited;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -28,7 +28,7 @@ public class Main250512 {
 		}
 		final int total = Integer.parseInt(br.readLine());
 		visited = new boolean[total + 1];
-		Main250512 main = new Main250512();
+		MainUsingBfs250512 main = new MainUsingBfs250512();
 		System.out.println(main.solution(total, coins));
 	}
 
