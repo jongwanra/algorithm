@@ -25,10 +25,6 @@ public class Main250514 {
 		cache = new int[n + 1][r + 1];
 		System.out.println(main.solution(n, r));
 
-		for(int[] rows: cache) {
-			System.out.println(Arrays.toString(rows));
-		}
-
 	}
 
 	private int solution(int n, int r) {
