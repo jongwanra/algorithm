@@ -32,7 +32,7 @@ public class Main250519 {
 		}
 	}
 	private static int[] dr = { -1, 0, 1, 0};
-	private static int[] dc = { 0, 1, 0,  -1};
+	private static int[] dc = { 0, 1, 0, -1};
 	private static int row;
 	private static int col;
 	private static int[][] board;
