@@ -10,6 +10,12 @@ package 자바_알고리즘_문제풀이_입문.greedy.원더랜드_프림;
  * 3. visited 배열을 구성한다.
  * 4. 방문하지 않는 인접한 노드들을 pQ에 추가한다.
  * 5. poll한다 방문하지 않은 경우에 인접 노드를 추가하고 위를 반복한다.
+ *
+ * 시간 복잡도: O(E log V)
+ * E개의 간선을 PriorityQueue에 넣고 뺄 수 있다.
+ * offer() / poll()이 O(log V)이다.
+ *
+ * 공간 복잡도: O(V + E)
  */
 
 
@@ -64,7 +70,7 @@ public class Main250528 {
 		pQ.offer(new Edge(1, 0));
 
 		while(!pQ.isEmpty()) {
-			Edge cur = pQ.poll();
+			Edge cur = pQ.poll(); // O(log n)
 			if(visited[cur.v]) {
 				continue;
 			}
