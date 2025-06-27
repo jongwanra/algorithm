@@ -92,7 +92,7 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 | [교육과정설계](https://cote.inflearn.com/contest/10/problem/05-07) | [15:00] | [✅] | [25.01.29] | Queue를 통해 문제 접근, 필수 과목에 Queue를 넣는 방식으로도 해결할 수 있음. |
 | [응급실](https://cote.inflearn.com/contest/10/problem/05-08) | [20:59, 21:05] | [✅, ✅] | [25.01.29, 25.05.01] | Queue 문제 접근,  Patient Object를 따로 추가하여 구현 |
 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) | [15:00] | [✅] | [25.06.23] | [시간 초과가 발생, 기본 배열 순회로 문제 해결] |
-| [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |  |  |  |  |
+| [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [19:02] | [✅] | [25.06.27] | |
 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |  |  |  |  |
 | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) |  |  |  |  |
 | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |  |  |  |  |
