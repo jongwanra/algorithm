@@ -20,21 +20,21 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 
 ## String
 
-| 문제 이름 | 걸린 시간 | 문제 해결 여부 | 문제 푼 날 | 비고                                                                                                                                   |
-| --- | --- | --- | --- |--------------------------------------------------------------------------------------------------------------------------------------|
-| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) | [19:43, 21:08] | [✅, ✅] | [24.11.13, 25.04.12] | [ 영어 지문이다 보니 읽는데 시간을 많이 소요]                                                                                                          |
-| [1. 문자 찾기](https://cote.inflearn.com/contest/10/problem/01-01) | [10:00] | [✅] | [24.11.15] | 쉽다. 다시 풀어볼 필요 없을 것 같다.                                                                                                               |
-| [2. 대소문자 변환](https://cote.inflearn.com/contest/10/problem/01-02) | [3:00] | [✅] | [24.11.15] | 쉽다. 다시 풀어볼 필요 없을 것 같다.                                                                                                               |
-| [3. 문장 속 단어](https://cote.inflearn.com/contest/10/problem/01-03) | [6:04] | [✅] | [24.11.19] | 쉽다. 다시 풀어볼 필요 없을 것 같다.                                                                                                               |
-| [4. 단어 뒤집기](https://cote.inflearn.com/contest/10/problem/01-04) | [10:51] | [✅] | [24.11.19] | StringBuilder의 reverse를 활용해서 단어를 뒤집는 방식으로 쉽게 풀 수 있었다.                                                                                |
-| [5. 특정 문자 뒤집기](https://cote.inflearn.com/contest/10/problem/01-05) | [11:40] | [✅] | [24.11.20] |                                                                                                                                      |
-| [6. 중복문자제거](https://cote.inflearn.com/contest/10/problem/01-06) | [08:04] | [✅] | [24.11.20] | 내가 접근한 방식: LinkedHashSet (입력 순서 보장), 강의에서 접근 방식: indexOf()                                                                           |
-| [7. 회문 문자열](https://cote.inflearn.com/contest/10/problem/01-07) | [07:36] | [✅] | [24.11.21] |                                                                                                                                      |
-| [8. 유효한 팰린드롬](https://cote.inflearn.com/contest/10/problem/01-08) | [19:15, 10:00] | [✅, ✅] | [24.11.21, 25.04.15] | 마지막 홀수에 대한 처리를 어떻게 해야할지 몰라서 오래 걸렸다. 남은 글자가 홀수인 경우도 인정한다는 조건을 알았다면 금방 풀었을 것으로 예상                                                      |
-| [9. 숫자만 추출](https://cote.inflearn.com/contest/10/problem/01-09) | [05:55] | [✅] | [24.11.21] | 문자열 중 숫자만 추출해서 자연수 만드는 것. 다시 풀어볼 필요 없을 것 같다.                                                                                         |
-| [10. 가장 짧은 문자거리](https://cote.inflearn.com/contest/10/problem/01-10) | [20:00, 16:14, 12:29] | [✅, ✅, ✅] | [24.11.23, 24.11.24, 25.04.15] | 특정 문자에서의 최소 거리를 구하는 문제. 내가 접근한 방식: 모든 특정 문자에서의 모든 문자열에서 최소 거리를 구함. 강의 접근 방식: 오른쪽을 기준으로 한 번, 왼쪽을 기준으로 한 번 총 2번으로 최소 거리를 구함. 다시 한 번 풀어보자. |
-| [11. 문자열 압축](https://cote.inflearn.com/contest/10/problem/01-11) | [17:30, 16:06] | [✅, ✅] | [24.11.24, 25.04.16] | 문자열 반복문을 돌면서 다음 인덱스의 문자가 서로 같을 경우, 다를 경우에 로직을 분기해서 처리함. 알고리즘을 통하게 하기 위해 받은 문자열에 빈 문자열을 한칸 추가한게 인상적이었음.                               |
-| [12. 암호](https://cote.inflearn.com/contest/10/problem/01-12) | [23:47, 30:00] | [✅, ❌] | [24.11.25, 25.04.16] | 구현 문제, 이진수 10진수 변경이 주요 구현 문제였음. 배운점(1. 10진수를 2진수로 변경하는 메서드, 2. 특정 문자 전부 교체 시 replace method)                                         |
+| 문제 이름 | 걸린 시간 | 문제 해결 여부 | 문제 푼 날 
+| --- | --- | --- | --- |
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) | [19:43, 21:08] | [✅, ✅] | [24.11.13, 25.04.12] 
+| [1. 문자 찾기](https://cote.inflearn.com/contest/10/problem/01-01) | [10:00] | [✅] | [24.11.15] |
+| [2. 대소문자 변환](https://cote.inflearn.com/contest/10/problem/01-02) | [3:00] | [✅] | [24.11.15] |
+| [3. 문장 속 단어](https://cote.inflearn.com/contest/10/problem/01-03) | [6:04] | [✅] | [24.11.19] |
+| [4. 단어 뒤집기](https://cote.inflearn.com/contest/10/problem/01-04) | [10:51] | [✅] | [24.11.19] |
+| [5. 특정 문자 뒤집기](https://cote.inflearn.com/contest/10/problem/01-05) | [11:40] | [✅] | [24.11.20] |
+| [6. 중복문자제거](https://cote.inflearn.com/contest/10/problem/01-06) | [08:04] | [✅] | [24.11.20] | 
+| [7. 회문 문자열](https://cote.inflearn.com/contest/10/problem/01-07) | [07:36] | [✅] | [24.11.21] |
+| [8. 유효한 팰린드롬](https://cote.inflearn.com/contest/10/problem/01-08) | [19:15, 10:00] | [✅, ✅] | [24.11.21, 25.04.15] |
+| [9. 숫자만 추출](https://cote.inflearn.com/contest/10/problem/01-09) | [05:55] | [✅] | [24.11.21] | 
+| [10. 가장 짧은 문자거리](https://cote.inflearn.com/contest/10/problem/01-10) | [20:00, 16:14, 12:29] | [✅, ✅, ✅] | [24.11.23, 24.11.24, 25.04.15] |
+| [11. 문자열 압축](https://cote.inflearn.com/contest/10/problem/01-11) | [17:30, 16:06] | [✅, ✅] | [24.11.24, 25.04.16] |
+| [12. 암호](https://cote.inflearn.com/contest/10/problem/01-12) | [23:47, 30:00] | [✅, ❌] | [24.11.25, 25.04.16] |
 
 ## Array(1, 2차원 배열)
 
