@@ -100,18 +100,19 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 
 ## Sorting and Searching
 
-| 문제 이름 | 걸린 시간 | 문제 해결 여부 | 문제 푼 날 
-| --- | --- | --- | --- |
-| [선택 정렬](https://cote.inflearn.com/contest/10/problem/06-01) | [10:08] | [✅] | [25.02.01] | 
-| [버블 정렬](https://cote.inflearn.com/contest/10/problem/06-02) | [08:00] | [✅] | [25.02.01]  |
-| [삽입 정렬](https://cote.inflearn.com/contest/10/problem/06-03) | [10:00, 05:00] | [✅, ✅] | [25.02.02, 25.02.03]  | 
-| [Least Recently Used](https://cote.inflearn.com/contest/10/problem/06-04) | [16:50, 20:55] | [✅, ✅] | [25.02.03, 25.05.05] | 
-| [중복 확인](https://cote.inflearn.com/contest/10/problem/06-05) | [03:00] | [✅] | [25.02.03] | 
-| [장난꾸러기](https://cote.inflearn.com/contest/10/problem/06-06) | [13:31] | [✅] | [25.02.04] | 
-| [좌표 정렬](https://cote.inflearn.com/contest/10/problem/06-07) | [10:10] | [✅] | [25.02.04] | 
-| [이분 검색](https://cote.inflearn.com/contest/10/problem/06-08) | [25:36, 09:00] | [✅, ✅] | [25.02.05, 25.05.05] | 
-| [뮤직비디오(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-09) | [59:59, 18:51, 29:12] | [❌, ✅, ✅] | [25.02.05, 25.02.06, 25.05.06] | 
-| [마구간 정하기(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-10) | [30:00, 15:33, 25:03] | [❌,  ✅, ✅] | [25.02.05, 25.02.06, 25.05.07] | 
+| 문제 이름                                                                                 | 걸린 시간                 | 문제 해결 여부   | 문제 푼 날                         
+|---------------------------------------------------------------------------------------|-----------------------|------------|--------------------------------|
+| [선택 정렬](https://cote.inflearn.com/contest/10/problem/06-01)                           | [10:08]               | [✅]        | [25.02.01]                     | 
+| [버블 정렬](https://cote.inflearn.com/contest/10/problem/06-02)                           | [08:00]               | [✅]        | [25.02.01]                     |
+| [삽입 정렬](https://cote.inflearn.com/contest/10/problem/06-03)                           | [10:00, 05:00]        | [✅, ✅]     | [25.02.02, 25.02.03]           | 
+| [Least Recently Used](https://cote.inflearn.com/contest/10/problem/06-04)             | [16:50, 20:55]        | [✅, ✅]     | [25.02.03, 25.05.05]           | 
+| [중복 확인](https://cote.inflearn.com/contest/10/problem/06-05)                           | [03:00]               | [✅]        | [25.02.03]                     | 
+| [장난꾸러기](https://cote.inflearn.com/contest/10/problem/06-06)                           | [13:31]               | [✅]        | [25.02.04]                     | 
+| [좌표 정렬](https://cote.inflearn.com/contest/10/problem/06-07)                           | [10:10]               | [✅]        | [25.02.04]                     | 
+| [이분 검색](https://cote.inflearn.com/contest/10/problem/06-08)                           | [25:36, 09:00]        | [✅, ✅]     | [25.02.05, 25.05.05]           | 
+| [뮤직비디오(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-09)                   | [59:59, 18:51, 29:12] | [❌, ✅, ✅]  | [25.02.05, 25.02.06, 25.05.06] | 
+| [마구간 정하기(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-10)                 | [30:00, 15:33, 25:03] | [❌,  ✅, ✅] | [25.02.05, 25.02.06, 25.05.07] | 
+| [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748?language=java) | [11:14]               | [✅]         | [25.06.28]                     |
 
 ### Recursive, Tree, Graph
 
