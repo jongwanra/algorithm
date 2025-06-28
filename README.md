@@ -113,6 +113,7 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 | [뮤직비디오(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-09)                   | [59:59, 18:51, 29:12] | [❌, ✅, ✅]  | [25.02.05, 25.02.06, 25.05.06] | 
 | [마구간 정하기(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-10)                 | [30:00, 15:33, 25:03] | [❌,  ✅, ✅] | [25.02.05, 25.02.06, 25.05.07] | 
 | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748?language=java) | [11:14]               | [✅]         | [25.06.28]                     |
+| [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [30:00]               | [❌]         | [25.06.28]                     |
 
 ### Recursive, Tree, Graph
 
