@@ -114,7 +114,7 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 | [마구간 정하기(결정알고리즘)](https://cote.inflearn.com/contest/10/problem/06-10)                 | [30:00, 15:33, 25:03] | [❌,  ✅, ✅] | [25.02.05, 25.02.06, 25.05.07] | 
 | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748?language=java) | [11:14]               | [✅]         | [25.06.28]                     |
 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [30:00]               | [❌]         | [25.06.28]                     |
-|[H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|[]|[]|[]|
+|[H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|[30:00]|[❌]|[25.07.01]|
 
 ### Recursive, Tree, Graph
 
