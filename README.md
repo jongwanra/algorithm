@@ -165,3 +165,8 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 | [가장 높은 탑 쌓기(LIS 응용)](https://cote.inflearn.com/contest/10/problem/10-04) | [30:00, 08:23] | [❌, ✅] | [25.03.27, 25.03.28] | 
 | [동전교환(냅색 알고리즘)](https://cote.inflearn.com/contest/10/problem/10-05) | [30:00, 10:46] | [❌, ✅]  | [25.03.28, 25.04.01] | 
 | [최대 점수 구하기(냅색 알고리즘)](https://cote.inflearn.com/contest/10/problem/10-06) | [30:00, 30:00, 14:35] | [❌,❌,✅] | [25.04.02,25.05.29,25.06.03]  | 
+
+## Exhaustive Search
+| 문제 이름 | 걸린 시간 | 문제 해결 여부 | 문제 푼 날 | 
+| --- | --- | --- | --- |
+|[최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|[14:56]|[✅]|[25.07.02]|
