@@ -167,6 +167,8 @@ https://www.youtube.com/watch?v=Wx91sqfouCs
 | [최대 점수 구하기(냅색 알고리즘)](https://cote.inflearn.com/contest/10/problem/10-06) | [30:00, 30:00, 14:35] | [❌,❌,✅] | [25.04.02,25.05.29,25.06.03]  | 
 
 ## Exhaustive Search
-| 문제 이름 | 걸린 시간 | 문제 해결 여부 | 문제 푼 날 | 
-| --- | --- | --- | --- |
-|[최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|[14:56]|[✅]|[25.07.02]|
+| 문제 이름                                                                     | 걸린 시간   | 문제 해결 여부 | 문제 푼 날     | 
+|---------------------------------------------------------------------------|---------| --- |------------|
+| [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | [14:56] |[✅]| [25.07.02] |
+| [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)   | [30:00] |[❌]| [25.07.03] |
+| [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)  | [30:00] |[❌]| [25.07.04] |
